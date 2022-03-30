@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">QR</string>
+    <string name="title_generate">generate</string>
 </resources>

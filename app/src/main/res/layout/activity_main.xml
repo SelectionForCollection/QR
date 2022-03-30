@@ -5,6 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_centerHorizontal="true"/>
+
     <EditText
         android:id="@+id/edit_text"
         android:layout_width="match_parent"
@@ -18,13 +26,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/edit_text"
         android:layout_marginHorizontal="100dp"
-        android:text="generate" />
+        android:text="@string/title_generate" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/ic_launcher_background"
-        android:layout_below="@id/btn"
-        android:layout_marginTop="30dp" />
 </RelativeLayout>
